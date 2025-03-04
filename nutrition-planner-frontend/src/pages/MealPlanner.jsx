@@ -465,10 +465,10 @@ const MealPlanner = () => {
   return (
     <div className="dashboard-wrapper bg-gradient-to-b from-green-50 to-white min-h-screen">
       <div className="navbar bg-green-600 text-white p-4 flex justify-between items-center">
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <Leaf className="h-6 w-6 mr-2" />
-          <h1 className="text-xl font-bold">GreenMeal Planner</h1>
-        </div>
+           <h1 className="text-xl font-bold">GreenMeal Planner</h1>
+        </div> */}
         <div className="flex space-x-4">
           <Link to="/dashboard" className="flex items-center text-white hover:text-green-200">
             <ArrowLeft className="h-4 w-4 mr-1" />
